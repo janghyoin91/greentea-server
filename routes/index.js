@@ -1,7 +1,4 @@
-const models = require('../models');
-const express = require('express');
-const router = express.Router();
-
-router.get('/', function(req, res) {
-	models.users.findAll();
-});
+export { default as board } from './board';
+export { default as card } from './card';
+export { default as cardentry } from './cardentry';
+export { default as user } from './user';
