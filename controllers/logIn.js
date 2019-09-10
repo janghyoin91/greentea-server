@@ -4,11 +4,8 @@ import crypto from 'crypto';
 import { secret } from '../config/jwt';
 
 const logIn = async (req, res) => {
-	const { email, password, name } = req.body;
-	// if (name) {
-	// 	console.log('saklfjlaFJfjefa!!!!!!!!!!!!!!ldksdfL');
-	// 	next();
-	// } else {
+	const { email, password } = req.body;
+
 	if (!email || !password) {
 		next();
 	} else {
