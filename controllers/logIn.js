@@ -9,7 +9,7 @@ const logIn = async (req, res) => {
 	if (!email || !password) {
 		next();
 	} else {
-		users
+		await users
 			.findOne({
 				where: { email: email }
 			})
