@@ -18,7 +18,7 @@
 		"jsonwebtoken": "^8.5.1",
 		"mysql2": "^1.6.5",
 		"nodemon": "^1.19.2",
-		"sequelize": "^5.8.6"
+		"sequelize": "^5.15.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
